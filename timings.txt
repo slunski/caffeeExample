@@ -1,0 +1,612 @@
+#On 32bit P4, Debian, without saying @LOG
+
+Rakudo version 2016.09 built on MoarVM version 2016.09
+2.667647
+perl6 caffeExample.pl6  3,06s user 0,10s system 99% cpu 3,160 total
+2.65640031
+perl6 caffeExample.pl6  3,08s user 0,06s system 99% cpu 3,147 total
+2.619145
+perl6 caffeExample.pl6  3,02s user 0,09s system 99% cpu 3,109 total
+2.6550509
+perl6 caffeExample.pl6  3,04s user 0,10s system 99% cpu 3,147 total
+2.65047353
+perl6 caffeExample.pl6  3,04s user 0,10s system 99% cpu 3,143 total
+2.6635588
+perl6 caffeExample.pl6  3,09s user 0,07s system 99% cpu 3,158 total
+2.625983
+perl6 caffeExample.pl6  3,04s user 0,08s system 99% cpu 3,117 total
+2.66666948
+perl6 caffeExample.pl6  3,09s user 0,06s system 99% cpu 3,158 total
+2.659404
+perl6 caffeExample.pl6  3,07s user 0,08s system 99% cpu 3,151 total
+2.65743367
+perl6 caffeExample.pl6  3,04s user 0,10s system 99% cpu 3,149 total
+2.67252833
+perl6 caffeExample.pl6  3,08s user 0,09s system 99% cpu 3,167 total
+2.6718151
+perl6 caffeExample.pl6  3,09s user 0,07s system 99% cpu 3,165 total
+
+
+Rakudo version 2016.08.1-32-g508192f built on MoarVM version 2016.08-11-gedd5839
+2.663326
+perl6 caffeExample.pl6  3,06s user 0,10s system 99% cpu 3,163 total
+2.6468552
+perl6 caffeExample.pl6  3,06s user 0,08s system 99% cpu 3,145 total
+2.6610991
+perl6 caffeExample.pl6  3,02s user 0,14s system 99% cpu 3,160 total
+2.67692582
+perl6 caffeExample.pl6  3,09s user 0,08s system 99% cpu 3,176 total
+
+
+
+Rakudo version 2016.07.1 built on MoarVM version 2016.07
+#For comparision: on TP x220, Debian packaged timings for this are:  
+#0.9048448
+#perl6 caffeExample.pl6  1,10s user 0,06s system 99% cpu 1,164 total
+2.674106
+perl6 caffeExample.pl6  3,09s user 0,10s system 85% cpu 3,722 total
+2.6465977
+perl6 caffeExample.pl6  3,08s user 0,06s system 99% cpu 3,140 total
+2.67245036
+perl6 caffeExample.pl6  3,07s user 0,09s system 99% cpu 3,164 total
+2.6550110
+perl6 caffeExample.pl6  3,07s user 0,08s system 99% cpu 3,148 total
+2.65370057
+perl6 caffeExample.pl6  3,04s user 0,11s system 99% cpu 3,147 total
+2.6591378
+perl6 caffeExample.pl6  3,07s user 0,08s system 99% cpu 3,154 total
+
+
+Rakudo version 2016.06-89-ge9019e3 built on MoarVM version 2016.06-9-g8fc21d5
+2.7379258
+perl6 caffeExample.pl6  3,13s user 0,10s system 93% cpu 3,470 total
+2.7513398
+perl6 caffeExample.pl6  3,14s user 0,10s system 99% cpu 3,249 total
+2.723125
+perl6 caffeExample.pl6  3,12s user 0,09s system 99% cpu 3,215 total
+2.71628886
+perl6 caffeExample.pl6  3,12s user 0,08s system 99% cpu 3,209 total
+
+
+Rakudo version 2016.06 built on MoarVM version 2016.06
+2.6273743
+perl6 caffeExample.pl6  3,06s user 0,08s system 91% cpu 3,421 total
+2.61402906
+perl6 caffeExample.pl6  3,00s user 0,11s system 99% cpu 3,113 total
+2.6057813
+perl6 caffeExample.pl6  3,00s user 0,10s system 99% cpu 3,105 total
+2.6030360
+perl6 caffeExample.pl6  3,00s user 0,10s system 99% cpu 3,100 total
+2.613481
+perl6 caffeExample.pl6  3,00s user 0,11s system 99% cpu 3,112 total
+
+
+Rakudo version 2016.05 built on MoarVM version 2016.05
+2.8750150
+perl6 caffeExample.pl6  3,29s user 0,10s system 87% cpu 3,875 total
+2.87059369
+perl6 caffeExample.pl6  3,28s user 0,09s system 99% cpu 3,372 total
+2.8565605
+perl6 caffeExample.pl6  3,28s user 0,07s system 99% cpu 3,354 total
+2.9046498
+perl6 caffeExample.pl6  3,32s user 0,08s system 99% cpu 3,408 total
+2.84331684
+perl6 caffeExample.pl6  3,24s user 0,10s system 99% cpu 3,340 total
+2.8841622
+perl6 caffeExample.pl6  3,28s user 0,10s system 99% cpu 3,382 total
+
+
+R* 2016.04 missing data
+
+Rakudo version 2016.01.1 built on MoarVM version 2016.01
+3.10003884
+perl6 caffeExample.pl6  3,48s user 0,14s system 92% cpu 3,901 total
+3.0692118
+perl6 caffeExample.pl6  3,49s user 0,08s system 99% cpu 3,572 total
+3.0964278
+perl6 caffeExample.pl6  3,53s user 0,07s system 99% cpu 3,601 total
+3.10556529
+perl6 caffeExample.pl6  3,48s user 0,12s system 99% cpu 3,610 total
+3.07276609
+perl6 caffeExample.pl6  3,46s user 0,11s system 99% cpu 3,575 total
+3.0647001
+perl6 caffeExample.pl6  3,44s user 0,12s system 99% cpu 3,567 total
+
+
+Rakudo version 2015.12 built on MoarVM version 2015.12
+3.07817146
+perl6 caffeExample.pl6  3,48s user 0,13s system 87% cpu 4,123 total
+3.096831
+perl6 caffeExample.pl6  3,50s user 0,11s system 99% cpu 3,615 total
+3.05339089
+perl6 caffeExample.pl6  3,48s user 0,09s system 99% cpu 3,568 total
+3.06183511
+perl6 caffeExample.pl6  3,51s user 0,07s system 99% cpu 3,577 total
+3.0809760
+perl6 caffeExample.pl6  3,50s user 0,09s system 99% cpu 3,595 total
+3.06973217
+perl6 caffeExample.pl6  3,47s user 0,12s system 99% cpu 3,586 total
+3.09253884
+perl6 caffeExample.pl6  3,48s user 0,12s system 99% cpu 3,611 total
+3.0498198
+perl6 caffeExample.pl6  3,47s user 0,09s system 99% cpu 3,564 total
+3.06298896
+perl6 caffeExample.pl6  3,50s user 0,08s system 99% cpu 3,578 total
+
+
+perl6 version 2015.11 built on MoarVM version 2015.11
+2.87092193
+perl6 caffeExample.pl6  3,26s user 0,11s system 99% cpu 3,386 total
+2.87092193
+perl6 caffeExample.pl6  3,26s user 0,11s system 99% cpu 3,386 total
+2.84162322
+perl6 caffeExample.pl6  3,24s user 0,12s system 99% cpu 3,356 total
+2.8662738
+perl6 caffeExample.pl6  3,34s user 0,07s system 99% cpu 3,414 total
+2.8369581
+perl6 caffeExample.pl6  3,25s user 0,10s system 99% cpu 3,350 total
+2.85774584
+perl6 caffeExample.pl6  3,28s user 0,10s system 99% cpu 3,375 total
+
+
+perl6 version 2015.09 built on MoarVM version 2015.09
+# 'for @n -> @l' changed into  'for @n -> $l'
+# error was: Type check failed in binding @l; expected 'Positional' but got 'Str'
+3.2957524
+perl6 caffeExampleOLDv6.pl6  3,66s user 0,11s system 99% cpu 3,767 total
+3.30537288
+perl6 caffeExampleOLDv6.pl6  3,71s user 0,07s system 99% cpu 3,780 total
+3.28402775
+perl6 caffeExampleOLDv6.pl6  3,68s user 0,07s system 99% cpu 3,756 total
+3.31591056
+perl6 caffeExampleOLDv6.pl6  3,72s user 0,06s system 99% cpu 3,787 total
+3.3145183
+perl6 caffeExampleOLDv6.pl6  3,70s user 0,08s system 99% cpu 3,784 total
+3.3061349
+perl6 caffeExampleOLDv6.pl6  3,70s user 0,08s system 99% cpu 3,778 total
+3.2989068
+perl6 caffeExampleOLDv6.pl6  3,68s user 0,08s system 99% cpu 3,770 total
+3.312220
+perl6 caffeExampleOLDv6.pl6  3,68s user 0,10s system 99% cpu 3,784 total
+
+
+perl6 version 2015.07.2 built on MoarVM version 2015.07
+# 'my %kh = coffeeKnowHow( $name );'  changed into  'my $kh = coffeeKnowHow( $name );'
+#error was: Odd number of elements found where hash initializer expected
+4.04330679
+perl6 caffeExampleOLDv6.pl6  4,43s user 0,10s system 99% cpu 4,525 total
+4.05562548
+perl6 caffeExampleOLDv6.pl6  4,44s user 0,10s system 99% cpu 4,536 total
+4.0626958
+perl6 caffeExampleOLDv6.pl6  4,47s user 0,08s system 99% cpu 4,546 total
+4.0359868
+perl6 caffeExampleOLDv6.pl6  4,46s user 0,06s system 99% cpu 4,516 total
+4.0428589
+perl6 caffeExampleOLDv6.pl6  4,43s user 0,09s system 99% cpu 4,523 total
+4.03730978
+perl6 caffeExampleOLDv6.pl6  4,45s user 0,06s system 99% cpu 4,516 total
+4.03093703
+perl6 caffeExampleOLDv6.pl6  4,44s user 0,07s system 99% cpu 4,511 total
+4.05139271
+perl6 caffeExampleOLDv6.pl6  4,43s user 0,10s system 99% cpu 4,533 total
+
+
+perl6 version 2015.06 built on MoarVM version 2015.06
+3.7851542
+perl6 caffeExampleOLDv6.pl6  4,12s user 0,12s system 90% cpu 4,708 total
+3.75473257
+perl6 caffeExampleOLDv6.pl6  4,13s user 0,07s system 99% cpu 4,202 total
+3.78328214
+perl6 caffeExampleOLDv6.pl6  4,14s user 0,09s system 99% cpu 4,231 total
+3.80056150
+perl6 caffeExampleOLDv6.pl6  4,15s user 0,10s system 99% cpu 4,249 total
+3.827148
+perl6 caffeExampleOLDv6.pl6  4,20s user 0,07s system 99% cpu 4,278 total
+3.7828209
+perl6 caffeExampleOLDv6.pl6  4,16s user 0,07s system 99% cpu 4,230 total
+3.74505631
+perl6 caffeExampleOLDv6.pl6  4,14s user 0,05s system 99% cpu 4,193 total
+3.7558020
+perl6 caffeExampleOLDv6.pl6  4,16s user 0,04s system 99% cpu 4,203 total
+
+
+perl6 version 2015.02 built on MoarVM version 2015.02
+#error was: Pod variables other than $=pod not yet implemented. Sorry.
+#so 'for $=finish.comb -> $l {'  changed into  'for $finish.comb -> $l {'
+#error was: No such method 'List' for invocant of type 'Array'
+# when ',' { push @n, @k.List; @k = (); }  changed into  'when ',' { push @n, @k; @k = (); }'
+3.3707899
+perl6 caffeExampleOLDv6.pl6  4,00s user 0,10s system 99% cpu 4,102 total
+3.3463764
+perl6 caffeExampleOLDv6.pl6  4,00s user 0,08s system 99% cpu 4,080 total
+3.3416352
+perl6 caffeExampleOLDv6.pl6  3,97s user 0,10s system 99% cpu 4,074 total
+3.3539652
+perl6 caffeExampleOLDv6.pl6  3,98s user 0,11s system 99% cpu 4,086 total
+3.347000
+perl6 caffeExampleOLDv6.pl6  3,96s user 0,12s system 99% cpu 4,078 total
+3.32184624
+perl6 caffeExampleOLDv6.pl6  3,92s user 0,12s system 99% cpu 4,049 total
+3.3614447
+perl6 caffeExampleOLDv6.pl6  4,01s user 0,08s system 99% cpu 4,095 total
+3.3656920
+perl6 caffeExampleOLDv6.pl6  3,96s user 0,13s system 99% cpu 4,098 total
+3.3459570
+perl6 caffeExampleOLDv6.pl6  3,96s user 0,12s system 99% cpu 4,079 total
+
+
+perl6 version 2015.01 built on MoarVM version 2015.01
+3.9041204
+perl6 caffeExampleOLDv6.pl6  4,55s user 0,20s system 90% cpu 5,229 total
+3.89417653
+perl6 caffeExampleOLDv6.pl6  4,58s user 0,13s system 99% cpu 4,715 total
+3.90308980
+perl6 caffeExampleOLDv6.pl6  4,56s user 0,16s system 99% cpu 4,724 total
+3.9150670
+perl6 caffeExampleOLDv6.pl6  4,62s user 0,12s system 99% cpu 4,742 total
+3.9079815
+perl6 caffeExampleOLDv6.pl6  4,56s user 0,16s system 99% cpu 4,728 total
+3.9183917
+perl6 caffeExampleOLDv6.pl6  4,59s user 0,14s system 99% cpu 4,741 total
+3.9023407
+perl6 caffeExampleOLDv6.pl6  4,59s user 0,14s system 99% cpu 4,726 total
+3.9001833
+perl6 caffeExampleOLDv6.pl6  4,60s user 0,12s system 99% cpu 4,724 total
+3.9336665
+perl6 caffeExampleOLDv6.pl6  4,63s user 0,11s system 99% cpu 4,754 total
+3.90164871
+perl6 caffeExampleOLDv6.pl6  4,61s user 0,11s system 99% cpu 4,723 total
+3.8900406
+perl6 caffeExampleOLDv6.pl6  4,57s user 0,14s system 99% cpu 4,713 total
+3.8891294
+perl6 caffeExampleOLDv6.pl6  4,58s user 0,13s system 99% cpu 4,710 total
+3.8997616
+perl6 caffeExampleOLDv6.pl6  4,60s user 0,12s system 99% cpu 4,722 total
+
+
+
+perl6 version 2014.12 built on MoarVM version 2014.12
+3.7397276
+perl6 caffeExampleOLDv6.pl6  4,42s user 0,19s system 90% cpu 5,102 total
+3.72329499
+perl6 caffeExampleOLDv6.pl6  4,44s user 0,13s system 99% cpu 4,577 total
+3.72708868
+perl6 caffeExampleOLDv6.pl6  4,46s user 0,12s system 99% cpu 4,578 total
+3.7195120
+perl6 caffeExampleOLDv6.pl6  4,42s user 0,15s system 99% cpu 4,573 total
+3.7223652
+perl6 caffeExampleOLDv6.pl6  4,40s user 0,17s system 99% cpu 4,574 total
+3.727340
+perl6 caffeExampleOLDv6.pl6  4,43s user 0,14s system 99% cpu 4,579 total
+3.7504933
+perl6 caffeExampleOLDv6.pl6  4,50s user 0,11s system 99% cpu 4,613 total
+3.7349046
+perl6 caffeExampleOLDv6.pl6  4,46s user 0,12s system 99% cpu 4,592 total
+3.72069571
+perl6 caffeExampleOLDv6.pl6  4,42s user 0,15s system 99% cpu 4,570 total
+3.742526644
+perl6 caffeExampleOLDv6.pl6  4,47s user 0,12s system 99% cpu 4,599 total
+3.7216972
+perl6 caffeExampleOLDv6.pl6  4,43s user 0,14s system 99% cpu 4,575 total
+3.713816
+perl6 caffeExampleOLDv6.pl6  4,44s user 0,12s system 99% cpu 4,565 total
+3.83263408
+perl6 caffeExampleOLDv6.pl6  4,54s user 0,14s system 99% cpu 4,690 total
+3.73401968
+perl6 caffeExampleOLDv6.pl6  4,48s user 0,13s system 99% cpu 4,617 total
+3.7517061
+perl6 caffeExampleOLDv6.pl6  4,50s user 0,10s system 99% cpu 4,607 total
+3.740046
+perl6 caffeExampleOLDv6.pl6  4,44s user 0,15s system 99% cpu 4,590 total
+3.76385808
+perl6 caffeExampleOLDv6.pl6  4,49s user 0,12s system 99% cpu 4,618 total
+3.7226453
+perl6 caffeExampleOLDv6.pl6  4,44s user 0,14s system 99% cpu 4,577 total
+3.7136564
+perl6 caffeExampleOLDv6.pl6  4,45s user 0,11s system 99% cpu 4,563 total
+
+
+perl6 version 2014.09 built on MoarVM version 2014.09
+5.1668008
+perl6 caffeExampleOLDv6.pl6  5,65s user 0,18s system 90% cpu 6,443 total
+5.1147645
+perl6 caffeExampleOLDv6.pl6  5,62s user 0,11s system 99% cpu 5,734 total
+5.1159615
+perl6 caffeExampleOLDv6.pl6  5,63s user 0,10s system 99% cpu 5,734 total
+5.13546239
+perl6 caffeExampleOLDv6.pl6  5,60s user 0,15s system 99% cpu 5,754 total
+5.10703479
+-perl6 caffeExampleOLDv6.pl6  5,62s user 0,10s system 99% cpu 5,724 total
+5.09411087
+perl6 caffeExampleOLDv6.pl6  5,59s user 0,12s system 99% cpu 5,711 total
+5.10961636
+perl6 caffeExampleOLDv6.pl6  5,58s user 0,14s system 99% cpu 5,727 total
+5.19393054
+perl6 caffeExampleOLDv6.pl6  5,71s user 0,12s system 99% cpu 5,827 total
+5.10074695
+perl6 caffeExampleOLDv6.pl6  5,57s user 0,14s system 99% cpu 5,717 total
+5.1218053
+perl6 caffeExampleOLDv6.pl6  5,58s user 0,16s system 99% cpu 5,740 total
+5.1126333
+perl6 caffeExampleOLDv6.pl6  5,63s user 0,10s system 99% cpu 5,732 total
+5.12929710
+perl6 caffeExampleOLDv6.pl6  5,60s user 0,14s system 99% cpu 5,748 total
+
+
+
+perl6 version 2014.08 built on MoarVM version 2014.08
+4.9533771
+perl6 caffeExampleOLDv6.pl6  5,69s user 0,13s system 89% cpu 6,522 total
+4.9146229
+perl6 caffeExampleOLDv6.pl6  5,62s user 0,13s system 99% cpu 5,760 total
+4.90098206
+perl6 caffeExampleOLDv6.pl6  5,59s user 0,15s system 99% cpu 5,740 total
+4.88973577
+perl6 caffeExampleOLDv6.pl6  5,60s user 0,13s system 99% cpu 5,730 total
+4.9070821
+perl6 caffeExampleOLDv6.pl6  5,58s user 0,16s system 99% cpu 5,747 total
+4.8952444
+perl6 caffeExampleOLDv6.pl6  5,63s user 0,10s system 99% cpu 5,733 total
+4.9089941
+perl6 caffeExampleOLDv6.pl6  5,61s user 0,14s system 99% cpu 5,750 total
+4.911449
+perl6 caffeExampleOLDv6.pl6  5,62s user 0,13s system 99% cpu 5,752 total
+4.9406866
+perl6 caffeExampleOLDv6.pl6  5,67s user 0,11s system 99% cpu 5,780 total
+4.90844820
+perl6 caffeExampleOLDv6.pl6  5,62s user 0,13s system 99% cpu 5,754 total
+4.8921077
+perl6 caffeExampleOLDv6.pl6  5,60s user 0,13s system 99% cpu 5,729 total
+4.9064632
+perl6 caffeExampleOLDv6.pl6  5,62s user 0,12s system 99% cpu 5,748 total
+4.89638933
+perl6 caffeExampleOLDv6.pl6  5,58s user 0,15s system 99% cpu 5,732 total
+4.8931112
+perl6 caffeExampleOLDv6.pl6  5,63s user 0,10s system 99% cpu 5,736 total
+4.890715
+perl6 caffeExampleOLDv6.pl6  5,59s user 0,14s system 99% cpu 5,731 total
+4.8875548
+perl6 caffeExampleOLDv6.pl6  5,56s user 0,15s system 99% cpu 5,718 total
+4.8711347
+perl6 caffeExampleOLDv6.pl6  5,58s user 0,12s system 99% cpu 5,711 total
+4.88862627
+perl6 caffeExampleOLDv6.pl6  5,60s user 0,12s system 99% cpu 5,726 total
+4.9990908
+perl6 caffeExampleOLDv6.pl6  5,69s user 0,15s system 99% cpu 5,843 total
+4.912441
+perl6 caffeExampleOLDv6.pl6  5,62s user 0,13s system 99% cpu 5,753 total
+
+
+
+perl6 version 2014.04 built on MoarVM version 2014.04
+7.3053064
+perl6 caffeExampleOLDv6.pl6  7,99s user 0,10s system 96% cpu 8,375 total
+7.27342108
+perl6 caffeExampleOLDv6.pl6  7,94s user 0,10s system 99% cpu 8,051 total
+7.28860674
+perl6 caffeExampleOLDv6.pl6  7,95s user 0,11s system 99% cpu 8,062 total
+7.38011662
+perl6 caffeExampleOLDv6.pl6  8,06s user 0,08s system 99% cpu 8,150 total
+7.2610746
+perl6 caffeExampleOLDv6.pl6  7,91s user 0,11s system 99% cpu 8,028 total
+7.28263105
+perl6 caffeExampleOLDv6.pl6  7,92s user 0,13s system 99% cpu 8,054 total
+7.22812469
+perl6 caffeExampleOLDv6.pl6  7,86s user 0,13s system 99% cpu 7,993 total
+7.3496147
+perl6 caffeExampleOLDv6.pl6  8,04s user 0,08s system 99% cpu 8,125 total
+7.3413905
+perl6 caffeExampleOLDv6.pl6  8,02s user 0,08s system 99% cpu 8,112 total
+7.3822237
+perl6 caffeExampleOLDv6.pl6  8,09s user 0,07s system 99% cpu 8,161 total
+7.2456706
+perl6 caffeExampleOLDv6.pl6  7,92s user 0,09s system 99% cpu 8,016 total
+7.2286560
+perl6 caffeExampleOLDv6.pl6  7,88s user 0,12s system 99% cpu 7,997 total
+7.2996457
+perl6 caffeExampleOLDv6.pl6  7,94s user 0,13s system 99% cpu 8,067 total
+
+
+
+perl6 version 2014.03.01 built on MoarVM version 2014.03
+10.669267
+perl6 caffeExampleOLDv6.pl6  11,43s user 0,12s system 97% cpu 11,892 total
+10.4513532
+perl6 caffeExampleOLDv6.pl6  11,22s user 0,10s system 99% cpu 11,328 total
+10.330741
+perl6 caffeExampleOLDv6.pl6  11,08s user 0,12s system 99% cpu 11,211 total
+10.51839343
+perl6 caffeExampleOLDv6.pl6  11,28s user 0,11s system 99% cpu 11,397 total
+10.4229776
+perl6 caffeExampleOLDv6.pl6  11,18s user 0,12s system 99% cpu 11,301 total
+10.3912007
+perl6 caffeExampleOLDv6.pl6  11,16s user 0,11s system 99% cpu 11,267 total
+10.53925848
+perl6 caffeExampleOLDv6.pl6  11,30s user 0,11s system 99% cpu 11,419 total
+10.41379211
+perl6 caffeExampleOLDv6.pl6  11,19s user 0,10s system 99% cpu 11,292 total
+
+
+
+perl6 version 2014.03.01 built on parrot 6.1.0 revision 0
+24.2488786
+perl6 caffeExampleVOLDv6.pl6  26,28s user 0,30s system 99% cpu 26,581 total
+24.23605479
+perl6 caffeExampleVOLDv6.pl6  26,27s user 0,25s system 99% cpu 26,528 total
+24.2064926
+perl6 caffeExampleVOLDv6.pl6  26,24s user 0,27s system 99% cpu 26,508 total
+24.2877549
+perl6 caffeExampleVOLDv6.pl6  26,32s user 0,28s system 99% cpu 26,600 total
+24.4528466
+perl6 caffeExampleVOLDv6.pl6  26,45s user 0,32s system 99% cpu 26,774 total
+24.2213802
+perl6 caffeExampleVOLDv6.pl6  26,22s user 0,28s system 99% cpu 26,498 total
+
+
+
+perl6 version 2013.11 built on parrot 5.9.0 revision 0
+29.07361754
+perl6 caffeExampleOLDv6.pl6  31,07s user 0,60s system 98% cpu 32,203 total
+29.0367033
+perl6 caffeExampleOLDv6.pl6  30,97s user 0,58s system 99% cpu 31,557 total
+29.18597906
+perl6 caffeExampleOLDv6.pl6  31,16s user 0,56s system 99% cpu 31,715 total
+29.09864149
+perl6 caffeExampleOLDv6.pl6  31,11s user 0,50s system 99% cpu 31,624 total
+28.9248183
+perl6 caffeExampleOLDv6.pl6  30,89s user 0,55s system 99% cpu 31,449 total
+29.03651859
+perl6 caffeExampleOLDv6.pl6  31,02s user 0,53s system 99% cpu 31,558 total
+28.9963521
+perl6 caffeExampleOLDv6.pl6  30,88s user 0,63s system 99% cpu 31,520 total
+29.0121380
+perl6 caffeExampleOLDv6.pl6  31,02s user 0,50s system 99% cpu 31,540 total
+29.1356124
+perl6 caffeExampleOLDv6.pl6  31,12s user 0,54s system 99% cpu 31,669 total
+
+
+perl6 version 2013.05 built on parrot 5.3.0 revision 0
+25.131415
+perl6 caffeExampleOLDv6.pl6  26,70s user 0,24s system 98% cpu 27,355 total
+24.9666577
+perl6 caffeExampleOLDv6.pl6  26,50s user 0,23s system 99% cpu 26,741 total
+25.0151511
+perl6 caffeExampleOLDv6.pl6  26,50s user 0,20s system 99% cpu 26,706 total
+25.18264291
+perl6 caffeExampleOLDv6.pl6  26,65s user 0,22s system 99% cpu 26,873 total
+25.3594057
+perl6 caffeExampleOLDv6.pl6  26,84s user 0,28s system 99% cpu 27,119 total
+25.05502861
+perl6 caffeExampleOLDv6.pl6  26,58s user 0,23s system 99% cpu 26,822 total
+25.1479171
+perl6 caffeExampleOLDv6.pl6  26,58s user 0,32s system 99% cpu 26,908 total
+25.270896
+perl6 caffeExampleOLDv6.pl6  26,77s user 0,26s system 99% cpu 27,039 total
+
+
+perl6 version 2013.02.1 built on parrot 4.10.0 revision 0
+19.7748655
+perl6 caffeExampleOLDv6.pl6  20,84s user 0,24s system 98% cpu 21,491 total
+19.7702115
+perl6 caffeExampleOLDv6.pl6  20,86s user 0,18s system 99% cpu 21,047 total
+19.6938212
+perl6 caffeExampleOLDv6.pl6  20,74s user 0,22s system 99% cpu 20,965 total
+19.89144952
+perl6 caffeExampleOLDv6.pl6  20,90s user 0,25s system 99% cpu 21,161 total
+19.8255405
+perl6 caffeExampleOLDv6.pl6  20,92s user 0,19s system 99% cpu 21,110 total
+19.72305796
+perl6 caffeExampleOLDv6.pl6  20,77s user 0,22s system 99% cpu 20,996 total
+19.7075455
+perl6 caffeExampleOLDv6.pl6  20,77s user 0,21s system 99% cpu 20,979 total
+
+
+perl6 version 2012.12 built on parrot 4.10.0 revision 0
+17.92984699
+perl6 caffeExampleOLDv6.pl6  18,81s user 0,28s system 97% cpu 19,503 total
+18.05099643
+perl6 caffeExampleOLDv6.pl6  19,00s user 0,18s system 99% cpu 19,190 total
+18.0155192
+perl6 caffeExampleOLDv6.pl6  18,92s user 0,24s system 99% cpu 19,160 total
+18.0439776
+perl6 caffeExampleOLDv6.pl6  18,96s user 0,22s system 99% cpu 19,183 total
+18.128665
+perl6 caffeExampleOLDv6.pl6  19,06s user 0,20s system 99% cpu 19,262 total
+18.03474612
+perl6 caffeExampleOLDv6.pl6  18,97s user 0,19s system 99% cpu 19,163 total
+17.9152667
+perl6 caffeExampleOLDv6.pl6  18,85s user 0,19s system 99% cpu 19,044 total
+18.1284505
+perl6 caffeExampleOLDv6.pl6  19,07s user 0,18s system 99% cpu 19,263 total
+
+
+perl6 version 2012.11 built on parrot 4.6.0 revision 0
+21.65940799
+perl6 caffeExampleOLDv6.pl6  22,54s user 0,23s system 98% cpu 23,145 total
+21.7927071
+perl6 caffeExampleOLDv6.pl6  22,84s user 0,23s system 99% cpu 23,080 total
+21.654717
+perl6 caffeExampleOLDv6.pl6  22,73s user 0,21s system 99% cpu 22,944 total
+21.67008491
+perl6 caffeExampleOLDv6.pl6  22,77s user 0,18s system 99% cpu 22,960 total
+21.64383990
+perl6 caffeExampleOLDv6.pl6  22,77s user 0,17s system 99% cpu 22,942 total
+21.6967046
+perl6 caffeExampleOLDv6.pl6  22,78s user 0,21s system 99% cpu 22,990 total
+21.56839612
+perl6 caffeExampleOLDv6.pl6  22,68s user 0,18s system 99% cpu 22,856 total
+21.7140215
+perl6 caffeExampleOLDv6.pl6  22,79s user 0,21s system 99% cpu 23,005 total
+21.5922907
+perl6 caffeExampleOLDv6.pl6  22,64s user 0,24s system 99% cpu 22,876 total
+
+
+perl6 version 2012.10 built on parrot 4.6.0 revision 0
+21.922262
+21.68333080
+21.6890501
+21.79580366
+21.6248974
+21.7613246
+21.90314909
+perl6 caffeExampleVOLDv6.pl6  23,08s user 0,19s system 99% cpu 23,274 total
+21.68398112
+perl6 caffeExampleVOLDv6.pl6  22,81s user 0,24s system 99% cpu 23,053 total
+21.92227860
+perl6 caffeExampleVOLDv6.pl6  23,06s user 0,22s system 99% cpu 23,294 total
+21.73601274
+perl6 caffeExampleVOLDv6.pl6  22,88s user 0,23s system 99% cpu 23,112 total
+21.75786102
+perl6 caffeExampleVOLDv6.pl6  22,93s user 0,20s system 99% cpu 23,135 total
+
+
+perl6 version 2012.09.1 built on parrot 4.6.0 revision 0
+21.8772235
+perl6 caffeExampleVOLDv6.pl6  23,03s user 0,24s system 98% cpu 23,668 total
+21.772201
+perl6 caffeExampleVOLDv6.pl6  22,92s user 0,22s system 99% cpu 23,145 total
+21.7246043
+perl6 caffeExampleVOLDv6.pl6  22,88s user 0,22s system 99% cpu 23,100 total
+21.79255919
+perl6 caffeExampleVOLDv6.pl6  22,96s user 0,20s system 99% cpu 23,172 total
+21.9250949
+perl6 caffeExampleVOLDv6.pl6  23,11s user 0,21s system 99% cpu 23,320 total
+21.8157669
+perl6 caffeExampleVOLDv6.pl6  22,98s user 0,21s system 99% cpu 23,200 total
+
+
+perl6 version 2012.08 built on parrot 4.6.0 revision 0
+22.7047470
+perl6 caffeExampleVOLDv6.pl6  24,12s user 0,18s system 98% cpu 24,671 total
+22.7142059
+perl6 caffeExampleVOLDv6.pl6  24,08s user 0,22s system 99% cpu 24,312 total
+22.592741
+perl6 caffeExampleVOLDv6.pl6  23,99s user 0,17s system 99% cpu 24,171 total
+22.7768298
+perl6 caffeExampleVOLDv6.pl6  24,16s user 0,21s system 99% cpu 24,371 total
+22.7273554
+perl6 caffeExampleVOLDv6.pl6  24,13s user 0,17s system 99% cpu 24,309 total
+22.778474
+perl6 caffeExampleVOLDv6.pl6  24,18s user 0,17s system 99% cpu 24,360 total
+22.6928676
+perl6 caffeExampleVOLDv6.pl6  24,09s user 0,18s system 99% cpu 24,276 total
+22.6431772
+perl6 caffeExampleVOLDv6.pl6  24,03s user 0,19s system 99% cpu 24,225 total
+22.709012
+perl6 caffeExampleVOLDv6.pl6  24,14s user 0,14s system 99% cpu 24,293 total
+22.64505389
+perl6 caffeExampleVOLDv6.pl6  24,01s user 0,22s system 99% cpu 24,226 total
+22.6405289
+perl6 caffeExampleVOLDv6.pl6  24,02s user 0,20s system 99% cpu 24,216 total
+22.8177099
+perl6 caffeExampleVOLDv6.pl6  24,21s user 0,20s system 99% cpu 24,406 total
+22.8076159
+perl6 caffeExampleVOLDv6.pl6  24,19s user 0,19s system 99% cpu 24,388 total
+22.917452165
+perl6 caffeExampleVOLDv6.pl6  24,33s user 0,17s system 99% cpu 24,502 total
+
+
+
+
+
+
