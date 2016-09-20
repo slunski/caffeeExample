@@ -1,6 +1,8 @@
 use v6;
+# change for Rakudo 2012.10 and erlier on Parrot: 'next' not implemented yet
 
 my $start = BEGIN now;
+my $finish = 'c,lrc,lctcml,lrlmlc,cctel,lme,mem,et,crm,lcr,cll,edlc,tccm,clmd,r,tl,dc,elcc.t,elc,mcl,ctcrlc,ltcm,ccc,lc,r,cdcc,dlrcm,mlm,dll,cm,lrl,cl,mdlm,lcr,lle,cec,de,lcd,cld,ltmc.lc,rc,c,lll,dce,lc,tcd,le,clc,cmmer,ctc,ccl,lc,mrm,dce,ldc,cdec,cdel,cr,lll,dctcr,lmc,llc,dc,rccr,ccdlmc,lmcl,rle,c,tc,c,cldl,m,cmr,dlld,mclc,md,lcc,elm,cll,cde,lrc,ml,dem,cd,me,l,mcd,lm,tccl,cml,dcme,mcr,ee,l,dtcde,dele,lcmd,dc,l,drm,dtml,mc,mlrl,lcm,ecr,rlc,ecc,edc,re,cce,edcm,ll,cctlr,cc,lrce,ce,mrl,dml,ddc,mc,ltcc,mc,lcd,e,mmctrc,lcdm,cmr,lc,erld,erc,rcec,rcl,dr,ctc,cm,crrd,llccr,mc,cdl,cctceml,cd,meclr,ecdc,cl,lrtcl,ecr,cc,erl,l,cr,ltmm,m,rlde,ler,cdl,rcl,ecec,clc,ctrc,cl,cd,ccc,cr,rcted,le,cdcrm,rcc,rle,ecc,mll,cl,clcc,er,dcr,c,lccd,etlce,rcd,lcrc,mcr,eld,rl,mec,cm,elccl,r,lec,ltcr,c,mcld,me,ede,lcm,ltec,ccl,cmtm,clm,ecc,rttrd,rcld,mlm,ec,rd,ltdl,le,emd,el,';
 
 my @LOG;
 
@@ -184,30 +186,31 @@ class Barista {
 				$.workTime += $g.prepareTime;
 				push $o.order, $g;
 			} else {
-				my %kh = coffeeKnowHow( $name );
-				unless %kh {
+				my $kh = coffeeKnowHow( $name );
+				if ! $kh {
 						log( "We don't have this on menu" );
-						next;
-				};
-				my $g = Glass.new( :volume(%kh<glass>), :temperature(40), :prepareTime(%kh<prepareTime>) );
-				if %kh<ground> == 7 {
-					$.single.fill( 7 );
-					my $b = $.machine.brew( $.single, %kh<water>, $name );
-					$g.fill( $b );
-				} else {
-					$.double.fill( 14 );
-					my $b = $.machine.brew( $.double, %kh<water>, $name );
-					$g.fill( $b );
-				}
+						#next;
+				} else {;
+					my $g = Glass.new( :volume($kh<glass>), :temperature(40), :prepareTime($kh<prepareTime>) );
+					if $kh<ground> == 7 {
+						$.single.fill( 7 );
+						my $b = $.machine.brew( $.single, $kh<water>, $name );
+						$g.fill( $b );
+					} else {
+						$.double.fill( 14 );
+						my $b = $.machine.brew( $.double, $kh<water>, $name );
+						$g.fill( $b );
+					}
 
-				if %kh<milk> :exists {
-					my $j = Jug.new;
-					$j.fill( Milk.new( :volume( %kh<milk> ) ) );
-					$j.steamMilk();
-					$g.fill( $j.pour() );
+					if $kh<milk> {
+						my $j = Jug.new;
+						$j.fill( Milk.new( :volume( $kh<milk> ) ) );
+						$j.steamMilk();
+						$g.fill( $j.pour() );
+					}
+					$.workTime += $g.prepareTime;
+					push $o.order, $g;
 				}
-				$.workTime += $g.prepareTime;
-				push $o.order, $g;
 			}
 		}	
 	}
@@ -253,9 +256,9 @@ my $customer = Customer.new();
 
 my @n;
 my @k;
-for $=finish.comb -> $l {
+for $finish.comb -> $l {
 	given $l {
-		when ',' { push @n, @k.List; @k = (); }
+		when ',' { push @n, @k; @k = (); }
 		when 'e' { push @k, 'espresso' }
 		when 'r' { push @k, 'ristretto' }
 		when 'd' { push @k, 'doppio' }
@@ -266,20 +269,18 @@ for $=finish.comb -> $l {
 	}
 }
 
-for @n -> @l {
-	my Order $o = Order.new( :list(@l) );
+for @n -> $l {
+	my Order $o = Order.new( :list(@$l) );
 	$customer.orderDrink( $barista, $o ) or last;
 	$barista.makeDrinks();
 	$barista.serve( $customer );
 	$customer.drink();
 }
 
-# timings was calculated without printing @LOG
 #say ~@LOG;
 
 say now - $start;
 
 #dd $customer;
 
-=finish
-c,lrc,lctcml,lrlmlc,cctel,lme,mem,et,crm,lcr,cll,edlc,tccm,clmd,r,tl,dc,elcc.t,elc,mcl,ctcrlc,ltcm,ccc,lc,r,cdcc,dlrcm,mlm,dll,cm,lrl,cl,mdlm,lcr,lle,cec,de,lcd,cld,ltmc.lc,rc,c,lll,dce,lc,tcd,le,clc,cmmer,ctc,ccl,lc,mrm,dce,ldc,cdec,cdel,cr,lll,dctcr,lmc,llc,dc,rccr,ccdlmc,lmcl,rle,c,tc,c,cldl,m,cmr,dlld,mclc,md,lcc,elm,cll,cde,lrc,ml,dem,cd,me,l,mcd,lm,tccl,cml,dcme,mcr,ee,l,dtcde,dele,lcmd,dc,l,drm,dtml,mc,mlrl,lcm,ecr,rlc,ecc,edc,re,cce,edcm,ll,cctlr,cc,lrce,ce,mrl,dml,ddc,mc,ltcc,mc,lcd,e,mmctrc,lcdm,cmr,lc,erld,erc,rcec,rcl,dr,ctc,cm,crrd,llccr,mc,cdl,cctceml,cd,meclr,ecdc,cl,lrtcl,ecr,cc,erl,l,cr,ltmm,m,rlde,ler,cdl,rcl,ecec,clc,ctrc,cl,cd,ccc,cr,rcted,le,cdcrm,rcc,rle,ecc,mll,cl,clcc,er,dcr,c,lccd,etlce,rcd,lcrc,mcr,eld,rl,mec,cm,elccl,r,lec,ltcr,c,mcld,me,ede,lcm,ltec,ccl,cmtm,clm,ecc,rttrd,rcld,mlm,ec,rd,ltdl,le,emd,el,
+#=finish
